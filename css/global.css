@@ -1,5 +1,6 @@
 h1 {
-    width: flex;
+    display: flex;
+    justify-content: center;
     background-color: rgb(253, 102, 2);
     border-radius: 20px;
     border: 2px solid white;
@@ -7,17 +8,17 @@ h1 {
     font-family: 'Arial', sans-serif;
     border-bottom: 10px solid rgb(255, 255, 255);
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
 }
 h2 {
     border-radius: 20px;
-    padding: 20px;
+    padding: 50px;
     border: 2px solid  rgb(255, 255, 255);
     border-bottom: 10px solid rgb(255, 255, 255);
     color: white;
     margin-top: 5px;
-    width: flex;
+    width: fit-content;
     height: 20px;
     background-color: rgb(253, 102, 2);
     text-align: center;

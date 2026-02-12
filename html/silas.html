@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SILAS</title>
+    <link rel="stylesheet" href="/css/button_enviar.css">
     <link rel="stylesheet" href="/css/button-voltar.css">
     <link rel="stylesheet" href="/css/aba_de_checklist.css">
 </head>
 <body>
-    <div class="button-voltar" onclick="window.history.back()">Voltar</div>
-    <H2>DIGITE A PLACA DA MOTO :</H2>
-    <input type="text" id="placa" placeholder="PLACA " />
+    <div class="button-voltar" onclick="window.history.back()"><strong>Voltar</strong></div>
+    <H2>SELECIONE A PLACA DA MOTO:</H2>
+<select id="placa" name="placa_moto" class="select-placas">
+    <option value="" disabled selected>Escolha uma placa...</option>
+    <option value="POH5E84">POH5E84</option>
+    <option value="POC4C24">POC4C24</option>
+    <option value="PNI1D31">PNI1D31</option>
+    <option value="PMW1H71">PMW1H71</option>
+</select>
 <div class="checklist-geral">
     <h3>Checklist Manutenção</h3>
 
