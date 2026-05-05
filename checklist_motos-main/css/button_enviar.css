@@ -1,0 +1,24 @@
+.button-enviar {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: min(320px, 100%);
+    padding: 14px 26px;
+    background-color: rgb(253, 102, 2);
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.05rem;
+    border: 3px solid white;
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    .button-enviar {
+        width: 100%;
+        max-width: 360px;
+        font-size: 1rem;
+        padding: 14px 18px;
+    }
+}
